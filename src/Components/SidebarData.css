@@ -1,0 +1,20 @@
+.data {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+
+.side-list {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.side-list img {
+    display: block;
+    border-radius: 6px;
+    padding: 0.8rem;
+}

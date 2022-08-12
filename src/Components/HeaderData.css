@@ -1,0 +1,45 @@
+.header-data {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.8rem;
+    padding-right: 5rem;
+}
+
+.header-list {
+    list-style: none;
+    padding-inline-start: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.header-list li {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+.sq_logo {
+    background-color: #E2E2EA;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+.prof {
+    background-color: #E2E2EA;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: lighter;
+}

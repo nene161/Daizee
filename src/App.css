@@ -1,0 +1,54 @@
+.App {
+  height: 100vh;
+  background-color: ;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  padding: 0 0 0 0.5rem;
+}
+
+.header {
+  height:  80px;
+  width: 100%;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: #E2E2EA;
+  
+}
+.body_container{
+  width: 100%;
+  display: flex;
+  background-color: #E2E2EA;
+}
+
+
+.side-bar {
+  height: 100vh;
+  min-width: 7.5rem;
+  background-color: aqua;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  border-color: #E2E2EA;
+  
+  
+}
+
+.body-inner-container {
+  width: 93%;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  padding: 3rem;
+  background-color: #FFFFFF;
+}
+
